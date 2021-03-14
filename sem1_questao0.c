@@ -19,9 +19,9 @@ int main() {
 
   //condicional
   if(num1<num2){ //se entrada 1 for menor que entrada 2
-    printf("%i \t %i\n",num1, num2); //imprime nesta ordem
+    printf("\n%i \t %i\n",num1, num2); //imprime nesta ordem
   }else{ //se não
-    printf("%i \t %i\n",num2, num1); //imprime nesta ordem
+    printf("\n%i \t %i\n",num2, num1); //imprime nesta ordem
   }
   
   return 0;

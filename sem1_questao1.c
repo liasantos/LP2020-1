@@ -22,13 +22,13 @@ int main() {
 
   //condicional
   if(valorCompra<=100){ //se entrada menor ou igual que 100
-    printf("\n R$ %.2f", valorCompra); //imprima entrada
+    printf("\nR$ %.2f", valorCompra); //imprima entrada
   } if(valorCompra>100 && valorCompra<=200){ //se entrada maior que 100 e menor ou igual a 200
     valorFinal=valorCompra-(valorCompra*0.05); //calcula 5% desconto
-    printf("\n R$ %.2f", valorFinal); //imprime valor com desconto
+    printf("\nR$ %.2f", valorFinal); //imprime valor com desconto
   } if(valorCompra>200){ //se entrada maior que 200
     valorFinal=valorCompra-(valorCompra*0.1); //calcula 10% desconto
-    printf("\n R$ %.2f", valorFinal); //imprime valor com desconto
+    printf("\nR$ %.2f", valorFinal); //imprime valor com desconto
   }
 
   return 0;
