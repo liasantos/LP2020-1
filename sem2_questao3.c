@@ -8,3 +8,31 @@ Escreva um programa em C que receba 3 valores reais correspondentes
 
 int main() {
   //declaração de variaveis
+  double lado1, lado2, lado3;
+
+  //exibe mensagem solicitando três números reais
+  printf("Digite as três medidas do triângulo:\n");
+
+  //lê as medidas inseridas
+  scanf("%lf %lf %lf", &lado1, &lado2, &lado3);
+  //condicional
+  //verifica se é triangulo
+  if(lado1+lado2>lado3 && lado1+lado3>lado2 && lado3+lado2>lado1){
+    //verifica se é equilatero
+    if(lado1==lado2&&lado2==lado3){ 
+    printf("EQUILÁTERO");
+    }
+    //verifica se é isósceles
+    if((lado1==lado2 && lado2!=lado3) || (lado1!=lado2 && lado2==lado3) || (lado1==lado3 && lado2!=lado3)){
+      printf("ISÓSCELES");
+    }
+    //verifica se é escaleno
+    if(lado1!=lado2 && lado2!=lado3){
+      printf("ESCALENO");
+    }    
+  }
+  else{
+    printf("NÃO FORMA");
+  }
+  return 0;
+  }
