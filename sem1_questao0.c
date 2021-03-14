@@ -3,6 +3,7 @@ Escreva um programa em C que receba dois números e os imprima em
 ordem crescente em uma mesma linha, separados por um espaço.
 */
 
+/*
 //preambulo
 #include <stdio.h>
 
@@ -18,3 +19,4 @@ int main() {
   
   return 0;
 }
+*/
