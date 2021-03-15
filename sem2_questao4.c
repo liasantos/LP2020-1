@@ -21,13 +21,13 @@ int main() {
     if((conceito1==1 && conceito2==1)||(conceito1==1 && conceito3==1) || (conceito2==1 && conceito3==1)){
       printf("APROVADO COM A");
     }
-    if((conceito1==2 && conceito2==2)||(conceito1==2 && conceito3==2) || (conceito2==2 && conceito3==2)){
+    else if((conceito1==2 && conceito2==2)||(conceito1==2 && conceito3==2) || (conceito2==2 && conceito3==2)){
       printf("APROVADO COM B");
     }
-    if((conceito1==3 && conceito2==3)||(conceito1==3 && conceito3==3) || (conceito2==3 && conceito3==3)){
+    else if((conceito1==3 && conceito2==3)||(conceito1==3 && conceito3==3) || (conceito2==3 && conceito3==3)){
       printf("APROVADO COM C");
     }
-    if((conceito1==4 && conceito2==4)||(conceito1==4 && conceito3==4) || (conceito2==4 && conceito3==4)){
+    else if((conceito1==4 && conceito2==4)||(conceito1==4 && conceito3==4) || (conceito2==4 && conceito3==4)){
       printf("REPROVADO");
     }
   }
