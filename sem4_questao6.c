@@ -27,7 +27,7 @@
 //     break;
 //     case 9: printf("nine\n");
 //     break;
-//     default: printf("invalido");
+//     default: printf("invalido\n");
 //   }
 //   return 0;
 // }
