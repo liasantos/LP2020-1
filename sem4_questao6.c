@@ -1,8 +1,5 @@
 /* Escreva um programa em C que receba um número inteiro, de 0 a 9, e o imprima por extenso em inglês.*/
-
-// // preambulo
 // #include <stdio.h>
-// // declaração de variável
 // int main(){
 //   int num;
 //   scanf("%i", &num);

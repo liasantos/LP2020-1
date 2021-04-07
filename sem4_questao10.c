@@ -1,4 +1,5 @@
 /* Escreva um programa que receba um número inteiro de até 4 dígitos e o escreva por extenso. Atente-se aos exemplos, e considere outros casos de teste que não estejam contemplados. A saída deve apresentar o número por extenso seguindo a norma culta da língua portuguesa */
+
 // #include <stdio.h>
 // int main(){
 //   int numero, milhar, centena, dezena, unidade, dif, imprimeE;
