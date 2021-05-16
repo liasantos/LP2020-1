@@ -9,8 +9,7 @@
 // for(i=0; i<tamanho; i++){
 //   scanf("%i", &sequencia[i]);
 // }
-// //10 1 2 3 4 5 6 7 8 9 10
-// //7 -1 3 7 4 5 5 11 
+
 // tamanho-=1;
 // for(i=tamanho; i>=0; i--){
 // printf("%i ", sequencia[i]);
