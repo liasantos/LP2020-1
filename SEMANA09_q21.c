@@ -14,7 +14,7 @@
 //     for(num=1; num<100; num++){    
 //       if(sequencia[num] == sequencia[num+1]){
 //         soma+=1;
-//         //printf("%i\n", soma); //teste      
+//        //printf("%i\n", soma); //teste      
 //         if(msequencia<soma){
 //           msequencia=soma;
 //         }else{
